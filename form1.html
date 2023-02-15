@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        form {
+            width: 500px;
+            min-height: 250px;
+            line-height: 1.6;
+            background-color: aquamarine;
+        }
+
+        .content {
+            margin: 16px;
+            background-color: #fff;
+            padding: 16px 24px;
+        }
+
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            background-color: mediumvioletred;
+            color: #fff;
+        }
+
+        .joy {
+            margin-left: 10px;
+        }
+
+        .email {
+            margin-left: 28px;
+        }
+
+        .form-content {
+            margin-left: 65px;
+        }
+    </style>
+    <form action="">
+        <div class="content">
+            <h2>
+                Sở Thích Của Bạn
+            </h2>
+            <label for="name">Họ và Tên</label>
+            <input type="text" placeholder="Your Name" name="name" id="name"> <br>
+            <label class="email" for="email">Email</label>
+            <input type="email" placeholder="Email" name="email" id="email"> <br>
+            <label class="joy">Sở thích: </label>
+            <div class="form-content">
+                <input type="checkbox" name="spost" id="spost">Thể Thao
+                <input type="checkbox" name="music" id="music">Âm Nhạc
+                <input type="checkbox" name="readbook" id="readbook">Đọc Sách <br>
+                <input type="checkbox" name="web" id="web">Lướt Web
+                <input type="checkbox" name="game" id="game">Chơi Game
+                <input type="checkbox" name="film" id="film">Điện Ảnh <br>
+                <input type="checkbox" name="tour" id="tour">Du Lịch <br>
+                <input type="submit" value="Gửi Thông Tin">
+                <input type="reset" value="Đặt Lại">
+            </div>
+        </div>
+        <form action="">
+            <div class="content">
+                <h2>Đăng ký học viên</h2>
+                <label for="yourname">Họ và Tên</label>
+                <input type="text" placeholder="Your Name" name="yourname" id="yourname"> <br>
+                <label class="birtday" for="birtday">Ngày sinh</label>
+                <input type="date"  name="birtday" id="birtday"> <br>
+                <label class="sex">Giới tính </label>
+                <input type="radio" name="sex" id="sex">Nam
+                <input type="radio" name="sex" id="sex">Nữ <br>
+                <label class="addess">Địa chỉ </label> <br>
+                <textarea name="addess" id="addess" cols="25" rows="5"></textarea><br>
+                <label class="class">Lớp </label>
+                <select name="class" id="class">
+                    <option value="select">--chọn lớp--</option>
+                    <option value="java100">Java 100</option>
+                    <option value="java101">Java 101</option>
+                </select><br>
+                <label class="yourEmail" for="yourEmail">Email</label> <br>
+                <input type="email" placeholder="Email" name="email" id="yourEmail"> <br>
+                <label class="phoneNumber" for="phoneNumber">Số điện thoại</label> <br>
+                <input type="text" placeholder="Nhập số điện thoại" name="phoneNumber" id="phoneNumber"> <br>
+                <input type="submit" value="Đăng Ký">
+                <input type="reset" value="Nhập Lại">
+                </div>
+            </div>
+        </form>
+        </section>
+
+    </form>
+</body>
+
+</html>
